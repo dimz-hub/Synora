@@ -1,0 +1,25 @@
+/* [project]/src/app/utils/herofont2_68386bc6.module.css [app-client] (css) */
+@font-face {
+  font-family: heroFont2;
+  src: url("../media/PlayfairDisplay_VariableFont_wght-s.p.6ccacd94.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: heroFont2 Fallback;
+  src: local(Arial);
+  ascent-override: 106.51%;
+  descent-override: 24.71%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.58%;
+}
+
+.herofont2_68386bc6-module__1ozIJW__className {
+  font-family: heroFont2, heroFont2 Fallback;
+}
+
+.herofont2_68386bc6-module__1ozIJW__variable {
+  --font-play2: "heroFont2", "heroFont2 Fallback";
+}
+
+/*# sourceMappingURL=src_app_utils_herofont2_68386bc6_module_css_bad6b30c._.single.css.map*/

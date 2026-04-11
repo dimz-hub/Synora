@@ -1,0 +1,49 @@
+/* [project]/src/app/utils/herofont1_ab27bd58.module.css [app-client] (css) */
+@font-face {
+  font-family: heroFont1;
+  src: url("../media/PlayfairDisplay_Italic_VariableFont_wght-s.p.f08a33a9.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: heroFont1 Fallback;
+  src: local(Arial);
+  ascent-override: 113.02%;
+  descent-override: 26.22%;
+  line-gap-override: 0.0%;
+  size-adjust: 95.74%;
+}
+
+.herofont1_ab27bd58-module__oaVq2a__className {
+  font-family: heroFont1, heroFont1 Fallback;
+}
+
+.herofont1_ab27bd58-module__oaVq2a__variable {
+  --font-play1: "heroFont1", "heroFont1 Fallback";
+}
+
+/* [project]/src/app/utils/herofont2_68386bc6.module.css [app-client] (css) */
+@font-face {
+  font-family: heroFont2;
+  src: url("../media/PlayfairDisplay_VariableFont_wght-s.p.6ccacd94.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: heroFont2 Fallback;
+  src: local(Arial);
+  ascent-override: 106.51%;
+  descent-override: 24.71%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.58%;
+}
+
+.herofont2_68386bc6-module__1ozIJW__className {
+  font-family: heroFont2, heroFont2 Fallback;
+}
+
+.herofont2_68386bc6-module__1ozIJW__variable {
+  --font-play2: "heroFont2", "heroFont2 Fallback";
+}
+
+/*# sourceMappingURL=src_app_utils_9d311c77._.css.map*/

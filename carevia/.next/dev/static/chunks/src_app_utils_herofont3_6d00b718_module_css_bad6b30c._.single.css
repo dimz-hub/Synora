@@ -1,0 +1,25 @@
+/* [project]/src/app/utils/herofont3_6d00b718.module.css [app-client] (css) */
+@font-face {
+  font-family: heroFont3;
+  src: url("../media/Lato_Regular-s.p.f836a55e.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: heroFont3 Fallback;
+  src: local(Arial);
+  ascent-override: 100.88%;
+  descent-override: 21.77%;
+  line-gap-override: 0.0%;
+  size-adjust: 97.84%;
+}
+
+.herofont3_6d00b718-module__Wd3jTq__className {
+  font-family: heroFont3, heroFont3 Fallback;
+}
+
+.herofont3_6d00b718-module__Wd3jTq__variable {
+  --font-play3: "heroFont3", "heroFont3 Fallback";
+}
+
+/*# sourceMappingURL=src_app_utils_herofont3_6d00b718_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,25 @@
+/* [project]/src/app/utils/herofont3_5bf4f360.module.css [app-client] (css) */
+@font-face {
+  font-family: heroFont3;
+  src: url("../media/Ramsina_Regular-s.p.4855fce9.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: heroFont3 Fallback;
+  src: local(Arial);
+  ascent-override: 109.0%;
+  descent-override: 48.14%;
+  line-gap-override: 0.0%;
+  size-adjust: 69.88%;
+}
+
+.herofont3_5bf4f360-module__abzRUG__className {
+  font-family: heroFont3, heroFont3 Fallback;
+}
+
+.herofont3_5bf4f360-module__abzRUG__variable {
+  --font-play3: "heroFont3", "heroFont3 Fallback";
+}
+
+/*# sourceMappingURL=src_app_utils_herofont3_5bf4f360_module_css_bad6b30c._.single.css.map*/
