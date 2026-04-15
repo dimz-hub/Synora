@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import PageTransition from "@/components/PageTransition";
+import { heroFont3 } from "./utils/font";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,9 +39,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}
+        className={`${heroFont3.className} ${geistMono.variable} antialiased bg-white text-black`}
       >
-        <div className = 'sticky top-0 z-50 bg-white shadow-2xl'>
+        <div className = ''>
 
         <Navbar  />
         </div>

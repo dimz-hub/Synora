@@ -10,44 +10,44 @@ const About = () => {
 
         <div className="md:flex-1">
           <Image
-            src="/carevia4.png"
+            src="/about2.jpg"
             alt="about-image"
             width={1000}
             height={300}
-            className="w-[450px] lg:w-[550px] rounded-2xl"
+            className="w-[450px] lg:w-[550px] h-[250px] object-cover rounded-2xl"
             />
         </div>
 
         <div className="flex flex-col gap-[25px] md:gap-[25px] md:flex-1">
-          <h3 className="font-bold texts-[#43acf3] text-[#0E6BA8] md:text-[35px]  text-[30px] mt-[20px] capitalize">
-            Welcome to <br /> Carevia Solutions Limited
+          <h3 className="font-bold texts-[#43acf3] text-[#2E8A99] md:text-[35px]  text-[30px] mt-[20px] capitalize">
+            Your Trusted Staffing Partner in Health & Social Care
           </h3>
 
           <p className="text-[19px] md:text-[20px]">
-            At Carevia Solutions Limited, we are committed to delivering reliable, compassionate, and highly skilled care professionals across England and Wales. We pride ourselves on providing staffing solutions that uphold the highest standards of dignity, safety, and person-centred care.
+         Synora Staffing Solutions Limited is a specialist staffing agency dedicated to delivering high-quality professionals across the health and social care sector.
+         Our care professionals are carefully selected, thoroughly vetted, and trained to meet regulatory standards. They are dedicated to delivering safe, respectful, and high-quality care to individuals with diverse needs. 
           </p>
 
           <div className="text-[19px] md:text-[20px]">
-          We supply fully trained and experienced staff to:
-          <ul className="list-decimal list-inside">
+          
+          {/* <ul className="list-decimal list-inside">
             <li>Hospitals</li>
             <li>Nursing homes</li>
             <li>Residential care homes</li>
             <li>Supported living services</li>
             <li>Domiciliary care providers</li>
             <li>Escort and care support services</li>
-          </ul>
+          </ul> */}
           </div>
         </div>
             </div>
 
-  <p className="text-[19px] mt-[35px] md:text-[20px]">Our care professionals are carefully selected, thoroughly vetted, and trained to meet regulatory standards. They are dedicated to delivering safe, respectful, and high-quality care to individuals with diverse needs.
-
-At Carevia Solutions Limited, we don’t just provide staff, we provide dependable care solutions you can trust.</p>
-            
+  <p className="text-[19px] mt-[35px] md:text-[20px]">We understand the pressure organisations face in maintaining safe staffing levels while delivering exceptional care. That’s why we provide dependable, qualified, and experienced staff who integrate seamlessly into your service.
+Our focus is simple:the right staff, at the right time, delivering the right care. 
+            </p>
         
 
-        {/* Stats */}
+        {/* Stats */} 
         <div className="flex flex-wrap mt-[40px] md:mt-[60px] items-center w-[90%] justify-center mx-auto gap-[20px]">
           
           <StatCard
@@ -76,11 +76,11 @@ At Carevia Solutions Limited, we don’t just provide staff, we provide dependab
 };
 
 const StatCard = ({ number, label }) => (
-  <div className="w-[180px] h-36 bg-gradient-to-r from-white to-[#296374]/90 rounded-lg shadow-md p-2 flex flex-col justify-center">
-    <p className="text-[45px] w-full text-center font-bold text-[#0C2C55]">
+  <div className="w-[180px] h-36 bg-[#296374] rounded-lg shadow-md p-2 flex flex-col justify-center">
+    <p className="text-[45px] w-full text-center font-bold text-white">
       {number}
     </p>
-    <p className="text-center text-[19px] ">
+    <p className="text-center text-white text-[19px] ">
       {label.split(" ").slice(0, -1).join(" ")} <br />
       {label.split(" ").slice(-1)}
     </p>

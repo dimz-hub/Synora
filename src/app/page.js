@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
+import Results from "@/components/Results";
 
 export default function Home() {
   const searchParams = useSearchParams();
@@ -29,6 +30,7 @@ export default function Home() {
       <About />
       <Services />
       <Career />
+      {/* <Results /> */}
 
       <section id="contact">
         <Contact />

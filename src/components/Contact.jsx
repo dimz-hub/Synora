@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Contact = () => {
    const router = useRouter();
@@ -55,20 +56,39 @@ const Contact = () => {
       )}
             <h3 className='text-[#0E6BA8] text-[30px] text-center mb-[15px] md:text-[40px] mt-[30px]'>Get in Touch <span className='font-semibold'>With Us!</span></h3>
         
-           <div className=' mt-[30px] bg-gradient-to-r from-[#0C2C55] to-[#296374]/90 h-auto pt-[20px] pb-[28px]  '>
-         <div className='w-[90%] md:w-[70%] mx-auto text-white flex items-center-safe gap-[10px] justify-between'>
-          <div className='w-[50%]'>
+           <div className=' mt-[30px] bg-[#0C2C55]  h-auto pt-[20px] pb-[28px]  '>
+         <div className='w-[100%] pl-[20px] md:w-[70%] mx-auto text-white flex flex-col items-center-safe md:gap-[10px] justify-between'>
+          <div className='w-[100%]'>
 
-          <h3 className='text-[22px] md:text-[38px] font-semibold mb-[8px]'>Quick <span className='font-extrabold'>Contact</span></h3>
-          <div className='flex mb-[10px] text-[14px] md:text-[20px] items-center font-bold gap-[5px] border-b-2 pb-[5px] border-white '><span> <FaPhone /></span><span>+44 7761 2642 41</span></div>
-          <div className='flex text-[14px] md:text-[20px] items-center gap-[5px] font-bold mt-[1px] border-b-2 pb-[5px] border-white '><span> <FaEnvelope /></span><span>Sade@careviasolutions.org</span></div>
-          
+          <h3 className='text-[24px] md:text-[38px] text-center font-semibold mb-[8px]'>Quick <span className='font-extrabold'>Contact</span></h3>
+          {/* Phone Section */}
+<a href="tel:+447942385311" style={{ display: 'contents', color: 'inherit', textDecoration: 'none' }}>
+  <div className='flex mb-[10px] text-[18px] mt-[20px] pb-[13px] w-[94%] md:text-[20px] items-center font-bold gap-[5px] border-b-2 pb-[5px] border-white '>
+    <span> <Image src='/phone.png' alt='phone' width={23} height={23}/></span>
+    <span> +44 7942 385311</span>
+  </div>
+</a>
+
+{/* Email Section */}
+<a href="mailto:Info@Synorastaffingsolutions.co.uk" style={{ display: 'contents', color: 'inherit', textDecoration: 'none' }}>
+  <div className='flex text-[18px] md:text-[20px] w-[94%] pb-[13px] items-center gap-[5px] font-bold mt-[1px] border-b-2 pb-[5px] border-white '>
+    <span> <Image src='/email.png' alt='phone' width={23} height={23} /></span>
+    <span>Info@Synorastaffingsolutions.co.uk</span>
+  </div>
+</a>
           </div>
-         <div>
-          <Image src = '/contact2.png' width={200} height={300}  alt='contact-image' className='ml-[12px] md:w-[250px]' />
+         <div className='mt-[-10px] mb-[-30px]'>
+          {/* <Image src = '/contact2.png' width={200} height={300}  alt='contact-image' className='ml-[12px] md:w-[250px]' /> */}
+          <DotLottieReact
+                src='/animations/support.lottie'
+                loop
+                autoplay
+                width={120}
+                height={100}
+                />
          </div>
          </div>
-          <p className='mx-auto w-[90%] mt-[20px] text-white text-[17px] text-center md:text-[18.5px]'>We provide nationwide coverage across <span className='font-semibold'>England</span> and <span className='font-semibold'>Wales</span> </p>
+          <p className='mx-auto w-[90%] mt-[20px] text-white text-[17px] text-center md:text-[18.5px]'>We provide nationwide coverage across <span className='font-semibold'>The United Kingdom</span>  </p>
         </div>
         <div className='w-[100%] text-center text-[20px] font-semibold mt-[30px] text-[#0E6BA8] underline'>Make Enquires below</div>
        <form
@@ -129,7 +149,7 @@ const Contact = () => {
     className="outline-none h-[200px] rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
   />
 
-  <button className="bg-gradient-to-r from-[#0C2C55] to-[#296374]/90 p-2 font-semibold rounded-[10px] text-white">
+  <button className="bg-[#2E8A99] p-2 font-semibold rounded-[10px] text-white">
     SUBMIT YOUR MESSAGE NOW
   </button>
 </form>

@@ -20,7 +20,7 @@ const Service = () => {
   const cards = [
     {
       id: 1,
-      title: "Home Care",
+      title: "Hospitals",
       img: "/domicare1.webp",
       desc:
         "Our home care staff provide compassionate, one-to-one support in the comfort of your own home. From personal care and daily assistance to companionship and mobility support, we help individuals remain safe, independent, and dignified.",
@@ -63,13 +63,13 @@ const Service = () => {
   ];
 
   const staffCards = [
-    { id: 1, title: "Registered Nurses", img: "/carevia2.png", desc: "" },
-    { id: 2, title: "Healthcare Assistants", img: "/carevia4.png", desc: "" },
-    { id: 3, title: "Cleaners and Domestic Staff", img: "/cleaner.JPG", desc: "" },
-    { id: 4, title: "Support Workers", img: "/carevia3.png", desc: "" },
+    { id: 1, title: "Hospitals", img: "/hos1.jpg", desc: "" },
+    { id: 2, title: "Care Homes", img: "/care3.jpg", desc: "" },
+    { id: 3, title: "Supported Living Services", img: "/support1.jpg", desc: "" },
+    { id: 4, title: "Private Clients", img: "/private1.jpg", desc: "" },
   ];
 
-  // LOADING SCREEN (Option 2)
+  
   if (!bgLoaded) {
     return (
       <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
@@ -86,8 +86,8 @@ const Service = () => {
   return (
     <div>
       {/* HERO SECTION */}
-      <div className="bg-gradient-to-r from-white to-[#9ACBD0]/70">
-        <section className="relative w-screen h-[80vh] md:h-screen">
+      <div className="bg-gradient-to-r from-white to-[#0e6ba8]/30">
+        {/* <section className="relative w-screen h-[80vh] md:h-screen">
           <div className="absolute inset-0 w-full h-full">
             <div
               className="
@@ -112,7 +112,7 @@ const Service = () => {
               service, giving you reliable support exactly when you need it.
             </p>
           </div>
-        </section>
+        </section> */}
 
         {/* INTRO */}
         <div className="w-[90%] mx-auto pb-[40px]">
@@ -124,8 +124,8 @@ const Service = () => {
             individuals and families at home and in care settings.
           </p>
           <p className="text-[20px] md:text-[22px]">
-            We offer a wide range of staffs which{" "}
-            <span className="font-semibold">includes</span>
+            We offer a wide range of staffing solutions {" "}
+            <span className="font-semibold">for</span>
           </p>
         </div>
 
@@ -137,27 +137,52 @@ const Service = () => {
 
       {/* SERVICE CARDS */}
       <p className="mt-[20px] w-[90%] mx-auto md:text-[22px] text-[20px] text-center">
-        <span className="text-[#006A71] font-semibold">Staffs</span> in each
-        category are trained and qualified to work in various aspects of care
+       We provide a diverse team of fully trained and qualified healthcare <span className="text-[#006A71] font-semibold">professionals,</span> including:
       </p>
 
-      <div className="mt-[30px] mx-auto w-[90%]">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {cards.map((card) => (
-            <ServiceCard key={card.id} card={card} />
-          ))}
-        </div>
+      <div className="mt-[30px] mx-auto w-[80%]">
+          <ul className="space-y-4">
+        {[
+          "Social Workers",
+          "Registered Nurses",
+          "Support Workers",
+          "Care Assistants",
+          "Domestic Staff",
+          "Occupational Therapists",
+        ].map((role) => (
+          <li key={role} className="flex items-center gap-3 text-gray-700 font-medium text-lg text-[20px]">
+            <span className="w-2 h-2 rounded-full bg-[#006A71] "></span>
+            {role}
+          </li>
+        ))}
+      </ul>
+      </div>
+       <p className="mt-[20px] w-[100%] mx-auto md:text-[22px] text-[20px] text-center">
+       With  <span className="text-[#006A71] font-semibold">Flexible</span>  Staffing Options such as 
+      </p>
+      <div className="mt-[30px] mx-auto w-[80%]">
+          <ul className="space-y-4">
+        {[
+          "Temporary Cover",
+          "Emergency Staffing",
+          "Long-Term Placements",
+           "Contract Staffing"
+        ].map((role) => (
+          <li key={role} className="flex items-center gap-3 text-[20px] text-gray-700 font-medium text-lg">
+            <span className="w-2 h-2 rounded-full bg-[#006A71]"></span>
+            {role}
+          </li>
+        ))}
+      </ul>
       </div>
 
       {/* TESTIMONIAL */}
       <div className="h-[40vh] flex flex-col mt-[40px] gap-[10px] items-center justify-center bg-[#84A7A1]/70">
         <p className="w-[87%] text-center text-[19px] mx-auto">
-          "I underestimated how hard it was to find support for my adult son, but
-          getting in contact with Carevia Solutions gave us the perfect care he
-          needed."
+          "I underestimated how hard it was to find the right support for my adult son. Synora Staffing Solutions changed everything, they provided the perfect care he needed and the peace of mind we were looking for"
         </p>
-        <p className="text-center text-[18px] font-semibold">
-          – LUCY R, CAREVIA SOLUTIONS CLIENT
+        <p className="text-center text-[18px] font-semibold text-white">
+          – MARGARET R, PRIVATE CLIENT
         </p>
       </div>
 

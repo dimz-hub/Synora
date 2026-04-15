@@ -8,19 +8,19 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa'
 const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
-    <div className='bg-[#629FAD] h-auto pb-[40px] overflow-y-hidden'>
+    <div className='bg-[#2E8A99]/80 h-auto pb-[40px] overflow-y-hidden'>
         <div>
-          <div className='text-white flex items-center pt-[20px] ml-[40px]'>
-            <Image  src='/carevia-logo.png' alt='carevia-logo' width={105} height={200} className=''/>
-            <div className='flex flex-col'>
-                <span className='text-[28px] font-bold'>Carevia</span>
-                <span className='mt-[-8px]'>Solutions</span>
-            </div>
+          <div className='text-white flex items-center pt-[20px] ml-[40px] gap-[20px]'>
+            <Image  src='/real-logo.png' alt='synora-logo' width={163} height={200} className=''/>
+            {/* <div className='flex flex-col'>
+                <span className='text-[28px] font-bold'>Synora</span>
+                <span className='mt-[-8px]'>Staffing Solutions</span>
+            </div> */}
           </div>
-          <div className='pl-[35px] text-white'>
+          <div className='pl-[35px] mt-[20px] text-white'>
             <h3 className='text-[22px] text-white'>Quick <span className='font-bold'>Contact</span></h3>
-             <div className='flex pt-[10px] text-[16px] items-center font-bold gap-[5px] pb-[5px] '><span> <FaPhone size={20}/></span><span>+44 7761 2642 41</span></div>
-             <div className='flex text-[16px] items-center gap-[5px] font-bold   pb-[5px] '><span> <FaEnvelope size={20} /></span><span>Sade@careviasolutions.org</span></div>
+             <div className='flex pt-[10px] text-[16px] items-center font-bold gap-[5px] pb-[5px] '><span> <FaPhone size={20}/></span><span>+44 7942 385311</span></div>
+             <div className='flex text-[16px] items-center gap-[5px] font-bold   pb-[5px] '><span> <FaEnvelope size={20} /></span><span>Info@Synorastaffingsolutions.co.uk</span></div>
                       
           </div>
   
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
            
             <div className='flex items-center text-white text-[16px]'>
-                Copyright &copy; {currentYear}<div className='bg-white mx-[5px] w-[5px] h-[5px] rounded-[50%]'> </div> Carevia Solutions Limited
+                Copyright &copy; {currentYear}<div className='bg-white mx-[5px] w-[5px] h-[5px] rounded-[50%]'> </div> Synora Staffing Solutions
             </div>
           </div>
             </div>

@@ -77,26 +77,26 @@ const Career = () => {
         </div>
       )}
 
-      <h3 className="text-[#0E6BA8] text-center lg:text-[44px] text-[35px] pt-[15px] font-semibold border-b-2 pb-[15px] mx-auto">
+      <h3 className="text-[#006A71] text-center lg:text-[44px] text-[35px] pt-[15px] font-semibold border-b-2 pb-[15px] mx-auto">
         Careers
       </h3>
 
       <div className="md:flex w-[90%] mx-auto mt-[35px] gap-[20px] items-center">
         <Image
-          src="/endoflife.JPG"
+          src="/career2.jpg"
           alt="career"
           width={1000}
           height={300}
-          className="w-[500px] md:w-[60vw] md:h-[80vh] rounded-[20px]"
+          className="w-[500px] md:w-[60vw] md:h-[80vh] rounded-[20px] h-[280px] object-cover"
         />
 
         <div>
-          <p className="text-[28px] text-center md:text-[35px] mt-[20px] text-blue-300">
-            <span className="font-bold text-[#296374]">Make a Difference</span>{" "}
-            With a Career in Care
+          <p className="text-[28px] text-center md:text-[35px] mt-[20px] text-[#0e6ba8]">
+            <span className="font-bold text-[#296374]">Start a Rewarding</span>{" "}
+            Journey with Synora
           </p>
           <p className="mt-4 text-[19px]">
-            At Carevia Solutions, we know that caring is a challenging and rewarding career. Our aim is to provide compassionate and caring service our clients and a fulfilling, supportive work environment for or staff.
+           At Synora, we believe that great care begins with valued caregivers. We are a community of dedicated professionals committed to making a real difference in healthcare. By joining our team, you’ll gain access to a supportive environment where your compassion is celebrated, your voice is heard, and your professional growth is our priority.
           </p>
           <p className="text-[19px] mt-4">If you would like to register with our agency, kindly fill out this short form and you will be contact to schedule a meeting.</p>
         </div>
