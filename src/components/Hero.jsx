@@ -46,7 +46,7 @@ export default function Hero() {
   }, [index, displayRoles.length]);
 
   return (
-    <section className="relative w-screen min-h-[80vh] md:h-screen overflow-hidden">
+    <section className="relative w-screen min-h-[83vh] md:h-screen overflow-hidden">
       
       {/* --- MANUAL LOADER START --- */}
       {!imageLoaded && (
@@ -77,6 +77,7 @@ export default function Hero() {
         className={`
           object-cover transition-opacity duration-700
           ${imageLoaded ? "opacity-100" : "opacity-0"}
+          
         `}
       />
 
