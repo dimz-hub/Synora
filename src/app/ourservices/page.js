@@ -120,8 +120,7 @@ const Service = () => {
             Our Services
           </h3>
           <p className="text-[20px] md:text-[22px] mb-[15px]">
-            We provide highly trained, reliable care professionals to support
-            individuals and families at home and in care settings.
+            At <span className=" text-[#006A71] font-semibold">Synora Staffing Solutions</span>, we bridge the gap between healthcare providers and high-quality professionals. We understand that in the care sector, consistency and compassion are just as important as qualifications. Whether you need a last-minute shift cover or a long-term staffing partner, we provide vetted experts who are ready to make a difference.
           </p>
           <p className="text-[20px] md:text-[22px]">
             We offer a wide range of staffing solutions {" "}
@@ -130,7 +129,7 @@ const Service = () => {
         </div>
 
         {/* STAFF SLIDE */}
-        <div className="pb-[40px]">
+        <div className="pb-[40px] mt-[-20px]">
           <ServiceSlide cards={staffCards} color={true} />
         </div>
       </div>

@@ -82,10 +82,11 @@ export default function Hero() {
 
       {/* Desktop background swap */}
       <Image
-        src="/hero1.jpg"
+        src="/hero8.jpg"
         alt="Carevia hero desktop"
         fill
         priority
+        quality={95}
         sizes="100vw"
         onLoadingComplete={() => setImageLoaded(true)}
         className={`
@@ -99,7 +100,7 @@ export default function Hero() {
 
       {/* CONTENT */}
       {/* Wrapped in an opacity check to keep it hidden until the image is ready */}
-      <div className={`relative z-20 flex flex-col items-center text-center text-white px-4 h-full transition-opacity duration-700 ${imageLoaded ? "opacity-100" : "opacity-0"}`}>
+      <div className={`relative z-20 flex flex-col lg:mt-[-50px] items-center text-center text-white px-4 h-full transition-opacity duration-700 ${imageLoaded ? "opacity-100" : "opacity-0"}`}>
         {/* Tagline */}
         <p
           className={`
@@ -120,7 +121,7 @@ export default function Hero() {
           Staffing You Can Trust
         </p>
 
-        <p className="mt-[47px] md:mt-[30px] text-[20px] md:text-[23px] font-bold">
+        <p className="mt-[47px] lg:mt-[10px] lg:mb-[-10px] md:mt-[30px] text-[20px] md:text-[23px] font-bold">
           Providing skilled and compassionate professionals to hospitals, care homes, supported living services, and private clients across the UK.
         </p>
 
@@ -131,7 +132,7 @@ export default function Hero() {
           onMouseLeave={() => setIsHovering(false)}
         >
           <div
-            className="absolute w-full"
+            className="absolute  w-full"
             style={{ 
               transform: `translateY(-${index * 40}px)`,
               transition: isTransitioning ? "transform 0.7s ease-in-out" : "none" 
@@ -157,7 +158,7 @@ export default function Hero() {
                 .getElementById("contact")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="border border-white   active:bg-[#135969] active:bg-[#135969] p-3 mt-[35px] rounded-[10px] font-semibold text-[19px]"
+            className="border border-white cursor-pointer   hover:bg-[#135969] active:bg-[#135969] p-3 mt-[35px] rounded-[10px] font-semibold text-[19px]"
           >
             Request Staff Now
           </button>

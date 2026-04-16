@@ -8,13 +8,13 @@ const About = () => {
       <div className="w-[90%] mx-auto mt-[40px] pb-[100px]  ">
         <div className="lg:flex  lg:justify-center items-center gap-[30px]">
 
-        <div className="md:flex-1">
+        <div className="md:flex-1 flex items-center mx-auto md:w-[100%] sm:w-[70%]">
           <Image
             src="/about2.jpg"
             alt="about-image"
             width={1000}
             height={300}
-            className="w-[450px] lg:w-[550px] h-[250px] object-cover rounded-2xl"
+            className="w-[450px] sm:w-[500px] sm:h-[300px] lg:w-[540px] h-[250px] lg:h-[350px] object-cover rounded-2xl"
             />
         </div>
 

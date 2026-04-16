@@ -29,7 +29,7 @@ const Services = () => {
             </div>
             <div className='flex-1 w-[90%] mx-auto'>
 
-             <p className='text-[26px] md:text-[29px] pt-[30px] lg:pt-[80px] flex-1 w-[90%] mx-auto md:text-[39px] capitalize lg:text-white'>
+             <p className='text-[26px] md:text-[29px] pt-[30px] lg:pt-[80px] flex-1 w-[90%] mx-auto md:text-[39px] capitalize '>
               <span className='text-[#2E8A99]'>we</span> supply <span className='font-semibold text-[#0e6ba8]'>experienced:</span>
              </p>
               <ul className="list-decimal list-inside mt-[20px] text-[19px] lg:text-[22px]">
@@ -63,7 +63,7 @@ const Services = () => {
                 <Image src='/partner1.png' width={1000} height={300} alt='partner-with-us-img' className='rounded-[20px] w-[500px] lg:h-[376px] h-[260px] sm:h-[300px]' />
               </div> */}
               <div className='flex-1'>
-               <p className='text-[28px] mt-[-10px] lg:pt-[80px] flex-1 w-[100%] text-center mx-auto md:text-[39px] capitalize lg:text-white'>
+               <p className='text-[28px] mt-[-10px] lg:pt-[20px] flex-1 w-[100%] text-center mx-auto md:text-[39px] capitalize '>
               Why Choose<span className='text-[#2E8A99] font-semibold'> Synora</span> <span className='font-semibold'>Staffing </span> <span className='font-semibold text-[#0e6ba8]'>Solutions?</span>
              </p>
               <ul className="list-decimal list-inside mt-[20px] flex  flex-col text-[19px] lg:text-[22px] gap-[10px]">

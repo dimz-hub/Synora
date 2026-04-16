@@ -26,7 +26,7 @@ const Career = () => {
     const formData = new FormData(form);
 
     try {
-      const res = await fetch("https://formspree.io/f/xeelzzgl", {
+      const res = await fetch("https://formspree.io/f/xjgjgqop", {
         method: "POST",
         body: formData,
         headers: {
@@ -179,7 +179,7 @@ const Career = () => {
 
         <button
           type="submit"
-          className="bg-[#629FAD] text-white px-6 py-3 rounded font-semibold hover:opacity-90 transition"
+          className="bg-[#629FAD] cursor-pointer text-white px-6 py-3 rounded font-semibold hover:opacity-90 transition"
         >
           Submit Application
         </button>

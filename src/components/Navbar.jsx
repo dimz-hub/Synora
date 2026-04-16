@@ -55,19 +55,19 @@ export default function Navbar() {
           <div className="hidden lg:flex mx-auto text-[20px] text-center items-center gap-[40px] py-[12px] px-[40px] rounded-[10px] font-medium">
             <Link 
               href="/#about" 
-              className={`border-b-2 transition-all ${isActive('/#about') ? 'border-[#0E6BA8] text-[#0E6BA8]' : 'border-transparent hover:border-[#0E6BA8]'}`}
+              className={`border-b-2  hover:border-neutral-50 hover:text-[21px] transition-all ${isActive('/#about') ? 'border-[#296374] text-[#0E6BA8]' : 'hover:border-transparent border-[#296374]'}`}
             >
               About
             </Link>
             <Link 
               href="/career" 
-              className={`border-b-2 transition-all ${isActive('/career') ? 'border-[#0E6BA8] text-[#0E6BA8]' : 'border-transparent hover:border-[#2E8A99]'}`}
+              className={`border-b-2 transition-all hover:text-[21px] ${isActive('/career') ? 'border-[#0E6BA8] text-[#296374]' : 'hover:border-transparent border-[#0E6BA8]'}`}
             >
               Careers
             </Link>
             <Link 
               href="/ourservices" 
-              className={`border-b-2 transition-all ${isActive('/ourservices') ? 'border-[#0E6BA8] text-[#0E6BA8]' : 'border-transparent hover:border-[#0E6BA8]'}`}
+              className={`border-b-2 transition-all hover:text-[21px]  ${isActive('/ourservices') ? 'border-[#296374] text-[#0E6BA8]' : 'hover:border-transparent border-[#296374]'}`}
             >
               Services
             </Link>
@@ -75,7 +75,7 @@ export default function Navbar() {
 
           <button
             onClick={handleContactClick}
-            className="hidden lg:block bg-[#0E6BA8] text-white px-5 py-2 rounded-lg hover:bg-[#0a5a8d] transition-colors"
+            className="hidden lg:block cursor-pointer bg-[#0E6BA8] text-white px-5 py-2 rounded-lg hover:bg-[#0a5a8d] transition-colors"
           >
             Contact Now
           </button>
@@ -88,7 +88,7 @@ export default function Navbar() {
             {menuOpen ? (
               <FiX size={32} className="text-[#0E6BA8] mr-[-10px]" />
             ) : (
-              <FiMenu size={32} className="text-[#448745] mr-[-10px]" />
+              <FiMenu size={32} className="text-[#306BAC] mr-[-10px]" />
             )}
           </button>
         </div>

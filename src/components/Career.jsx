@@ -14,8 +14,8 @@ pb-[40px]
 ">
 <div className='w-[90%] mx-auto lg:flex md:gap-[30px] lg:gap-[20px]  '>
 
-<div className=' pt-[60px] flex-1'>
-    <Image src='/career1.jpg' alt='career-img' width={1000} height={200} className='w-[430px] h-[250px] md:w-[540px] md:h-[350px] rounded-[10px]' />
+<div className=' pt-[60px] flex-1 md:w-[100%] sm:w-[100%] mx-auto'>
+    <Image src='/career1.jpg' alt='career-img' width={1000} height={200} className='w-[430px] h-[250px] md:w-[540px] lg:w-[540px] md:h-[350px] lg:h-[380px] rounded-[10px]' />
 </div>
 <div className='flex-1'>
 <div className='mt-[30px] '>
