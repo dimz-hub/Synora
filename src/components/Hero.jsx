@@ -69,7 +69,7 @@ export default function Hero() {
       {/* BACKGROUND IMAGE */}
       <Image
         src="/hero7.jpg"
-        alt="Carevia hero"
+        alt="synora hero"
         fill   
         priority
         sizes="100vw"
@@ -84,7 +84,7 @@ export default function Hero() {
       {/* Desktop background swap */}
       <Image
         src="/hero8.jpg"
-        alt="Carevia hero desktop"
+        alt="Synora hero desktop"
         fill
         priority
         quality={95}

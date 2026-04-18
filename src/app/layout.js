@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import PageTransition from "@/components/PageTransition";
 import { heroFont3 } from "./utils/font";
+import ChatWidget from "@/components/ChatWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,16 +19,16 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Carevia Solutions ",
-    template: "%s | Carevia Solutions",
+    default: "Synora Staffing Solutions ",
+    template: "%s | Synora Staffing Solutions",
   },
   description:
-    "Carevia Solutions provides trusted  care and staffing services across England and Wales.",
+    "Synora Staffing Solutions provides trusted  care and staffing services across The United Kingdom.",
   keywords: [
     " care staffing",
     "care workers",
     "healthcare recruitment",
-    "carevia solutions",
+    "synora staffing solutions",
   ],
   robots: {
     index: true,
@@ -46,9 +47,10 @@ export default function RootLayout({ children }) {
         <Navbar  />
         </div>
         <PageTransition>
-
+        
         {children}
         </PageTransition>
+        <ChatWidget />
       </body>
     </html>
   );

@@ -54,22 +54,22 @@ export default function Navbar() {
           {/* Desktop */}
           <div className="hidden lg:flex mx-auto text-[20px] text-center items-center gap-[40px] py-[12px] px-[40px] rounded-[10px] font-medium">
             <Link 
-              href="/#about" 
-              className={`border-b-2  hover:border-neutral-50 hover:text-[21px] transition-all ${isActive('/#about') ? 'border-[#296374] text-[#0E6BA8]' : 'hover:border-transparent border-[#296374]'}`}
-            >
-              About
-            </Link>
-            <Link 
               href="/career" 
-              className={`border-b-2 transition-all hover:text-[21px] ${isActive('/career') ? 'border-[#0E6BA8] text-[#296374]' : 'hover:border-transparent border-[#0E6BA8]'}`}
+              className={`border-b-2  hover:border-neutral-50 hover:text-[21px] transition-all ${isActive('/career') ? 'border-[#296374] text-[#0E6BA8]' : 'hover:border-transparent border-[#296374]'}`}
             >
               Careers
             </Link>
             <Link 
               href="/ourservices" 
-              className={`border-b-2 transition-all hover:text-[21px]  ${isActive('/ourservices') ? 'border-[#296374] text-[#0E6BA8]' : 'hover:border-transparent border-[#296374]'}`}
+              className={`border-b-2 transition-all hover:text-[21px] ${isActive('/ourservices') ? 'border-[#0E6BA8] text-[#296374]' : 'hover:border-transparent border-[#0E6BA8]'}`}
             >
-              Services
+           Services
+            </Link>
+            <Link 
+              href="/admin-chat" 
+              className={`border-b-2 transition-all hover:text-[21px] hover:border-transparent ${isActive('/admin-chat') ? 'border-[#296374] text-[#0E6BA8]' : 'hover:border-transparent border-[#296374]'}`}
+            >
+              Admin
             </Link>
           </div>
 
@@ -130,6 +130,13 @@ export default function Navbar() {
             className={`transition-colors ${isActive('/career') ? 'text-[#0E6BA8]' : 'hover:text-[#0E6BA8] active:text-[#0e6ba8]'}`}
           >
             Careers
+          </Link>
+          <Link 
+            href="/admin-chat" 
+            onClick={() => setMenuOpen(false)} 
+            className={`transition-colors ${isActive('/admin-chat') ? 'text-[#0E6BA8]' : 'hover:text-[#0E6BA8] active:text-[#0e6ba8]'}`}
+          >
+            Admin
           </Link>
           <button 
             onClick={handleContactClick}

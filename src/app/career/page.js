@@ -12,7 +12,7 @@ const Career = () => {
     // Preload hero background image
     useEffect(() => {
       const img = new window.Image();
-      img.src = "/carevia5.png";
+      img.src = "/career2.jpg";
       img.onload = () => setBgLoaded(true);
     }, []);
 

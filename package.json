@@ -1,5 +1,5 @@
 {
-  "name": "carevia",
+  "name": "synora",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.18.10",
+    "firebase": "^12.12.0",
     "framer-motion": "^12.34.3",
     "lucide-react": "^0.563.0",
     "next": "16.1.6",

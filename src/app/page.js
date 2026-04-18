@@ -9,6 +9,7 @@ import Services from "@/components/Services";
 import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Results from "@/components/Results";
+import ChatWidget from "@/components/ChatWidget";
 
 export default function Home() {
   const searchParams = useSearchParams();
@@ -24,6 +25,8 @@ export default function Home() {
     }
   }, [searchParams]);
 
+  
+
   return (
     <div>
       <Hero />
@@ -37,6 +40,7 @@ export default function Home() {
       </section>
 
       <Footer />
+    
     </div>
   );
 }
