@@ -69,7 +69,7 @@ const Service = () => {
           <p className="md:text-[22px] text-[20px] text-center mb-8">
             We provide a diverse team of fully trained and qualified healthcare <span className="text-[#006A71] font-semibold">professionals,</span> including:
           </p>
-          <div className="mx-auto w-fit">
+          <div className="w-fit md:mx-auto">
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
               {[
                 "Social Workers",
@@ -93,7 +93,7 @@ const Service = () => {
           <p className="md:text-[22px] text-[20px] text-center mb-8">
             With <span className="text-[#006A71] font-semibold">Flexible</span> Staffing Options such as:
           </p>
-          <div className="mx-auto w-fit">
+          <div className=" md:mx-auto w-fit">
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
               {[
                 "Temporary Cover",
@@ -112,7 +112,7 @@ const Service = () => {
       </div>
 
       {/* TESTIMONIAL - Using the updated style you liked */}
-      <div className="w-[90%] md:w-[70%] mx-auto my-[60px]">
+      <div className="w-[90%] md:w-[70%] mx-auto mt-[20px] mb-[60px]">
         <div className="bg-[#84A7A1]/20 p-8 md:p-12 rounded-2xl border-l-8 border-[#006A71]">
           <p className="italic text-[20px] md:text-[22px] text-gray-800 leading-relaxed">
             "I underestimated how hard it was to find the right support for my adult son. Synora Staffing Solutions changed everything, they provided the perfect care he needed and the peace of mind we were looking for."
