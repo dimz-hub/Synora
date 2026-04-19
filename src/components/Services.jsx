@@ -15,6 +15,26 @@ const Services = () => {
   return (
     <div>
         <div>
+            <div className='w-[90%] mx-auto lg:w-[80%] mt-[65px] mb-[30px] flex flex-col lg:flex-row items-center lg:gap-[25px] gap-[0px] '>
+              {/* <div className=' mt-[30px] flex-1'>
+                <Image src='/partner1.png' width={1000} height={300} alt='partner-with-us-img' className='rounded-[20px] w-[500px] lg:h-[376px] h-[260px] sm:h-[300px]' />
+              </div> */}
+              <div className='flex-1'>
+               <p className='text-[28px] mt-[-10px] lg:pt-[20px] flex-1 w-[100%] text-center mx-auto md:text-[39px] capitalize '>
+              Why Choose<span className='text-[#2E8A99] font-semibold'> Synora</span> <span className='font-semibold'>Staffing </span> <span className='font-semibold text-[#0e6ba8]'>Solutions?</span>
+             </p>
+              <ul className="list-decimal list-inside mt-[20px] flex  flex-col text-[19px] lg:text-[22px] gap-[10px]">
+            <li><span className='font-semibold text-[20px]'>Quality You Can Rely On: </span>
+We supply carefully vetted professionals who meet strict compliance, safeguarding, and training stan</li>
+            <li><span className='font-semibold text-[20px]'>Fast Response, 24/7 Availability: </span>   We understand urgent staffing needs. Our team responds quickly to ensure continuity of care. </li>
+            <li><span className='font-semibold text-[20px]'>Sector Expertise: </span> With deep knowledge of health and social care, we understand your operational and regulatory requirements.</li>
+            <li><span className='font-semibold text-[20px]'>Fully Compliant Workforce: </span> All staff undergo enhanced DBS checks, Right to Work verification, mandatory training, and reference checks.</li>
+            <li><span className='font-semibold text-[20px]'> Flexible & Tailored Solutions: </span> We adapt to your needs whether it’s last-minute cover or long-term staffing support.</li>
+            <li><span className='font-semibold text-[20px]'>Person-Centred Approach: </span> We prioritize dignity, respect, and quality care in every placement</li>
+            <li><span className='font-semibold text-[20px]'>Cost-Effective Staffing: </span> Reduce agency stress and maintain quality without overspending.</li>
+          </ul>
+              </div>
+             </div>
             <div className='bg-gradient-to-r pb-[80px] md:mt-[-25px]  w-full h-auto'>
              
              <h3 className='text-[36px] md:text-[44px] text-[#2E8A99] pt-[50px]  font-bold justify-center flex w-[100%]'>
@@ -58,26 +78,7 @@ const Services = () => {
                 Why Partner With Us?
              </h3> */}
 
-             <div className='w-[90%] mx-auto lg:w-[80%] mt-[65px] flex flex-col lg:flex-row items-center lg:gap-[25px] gap-[0px] '>
-              {/* <div className=' mt-[30px] flex-1'>
-                <Image src='/partner1.png' width={1000} height={300} alt='partner-with-us-img' className='rounded-[20px] w-[500px] lg:h-[376px] h-[260px] sm:h-[300px]' />
-              </div> */}
-              <div className='flex-1'>
-               <p className='text-[28px] mt-[-10px] lg:pt-[20px] flex-1 w-[100%] text-center mx-auto md:text-[39px] capitalize '>
-              Why Choose<span className='text-[#2E8A99] font-semibold'> Synora</span> <span className='font-semibold'>Staffing </span> <span className='font-semibold text-[#0e6ba8]'>Solutions?</span>
-             </p>
-              <ul className="list-decimal list-inside mt-[20px] flex  flex-col text-[19px] lg:text-[22px] gap-[10px]">
-            <li><span className='font-semibold text-[20px]'>Quality You Can Rely On: </span>
-We supply carefully vetted professionals who meet strict compliance, safeguarding, and training stan</li>
-            <li><span className='font-semibold text-[20px]'>Fast Response, 24/7 Availability: </span>   We understand urgent staffing needs. Our team responds quickly to ensure continuity of care. </li>
-            <li><span className='font-semibold text-[20px]'>Sector Expertise: </span> With deep knowledge of health and social care, we understand your operational and regulatory requirements.</li>
-            <li><span className='font-semibold text-[20px]'>Fully Compliant Workforce: </span> All staff undergo enhanced DBS checks, Right to Work verification, mandatory training, and reference checks.</li>
-            <li><span className='font-semibold text-[20px]'> Flexible & Tailored Solutions: </span> We adapt to your needs whether it’s last-minute cover or long-term staffing support.</li>
-            <li><span className='font-semibold text-[20px]'>Person-Centred Approach: </span> We prioritize dignity, respect, and quality care in every placement</li>
-            <li><span className='font-semibold text-[20px]'>Cost-Effective Staffing: </span> Reduce agency stress and maintain quality without overspending.</li>
-          </ul>
-              </div>
-             </div>
+           
             </div>
         </div>
     </div>

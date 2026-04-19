@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Results from "@/components/Results";
 import ChatWidget from "@/components/ChatWidget";
+import Whatwedo from "@/components/Whatwedo";
 
 export default function Home() {
   const searchParams = useSearchParams();
@@ -31,6 +32,7 @@ export default function Home() {
     <div>
       <Hero />
       <About />
+      <Whatwedo />
       <Services />
       <Career />
       {/* <Results /> */}

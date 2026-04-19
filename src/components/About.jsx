@@ -20,12 +20,12 @@ const About = () => {
 
         <div className="flex flex-col gap-[25px] md:gap-[25px] md:flex-1">
           <h3 className="font-bold texts-[#43acf3] text-[#2E8A99] md:text-[35px]  text-[30px] mt-[20px] capitalize">
-            Your Trusted Staffing Partner in Health & Social Care
+            Specialist Staffing You Can Trust
           </h3>
 
           <p className="text-[19px] md:text-[20px]">
-         Synora Staffing Solutions Limited is a specialist staffing agency dedicated to delivering high-quality professionals across the health and social care sector.
-         Our care professionals are carefully selected, thoroughly vetted, and trained to meet regulatory standards. They are dedicated to delivering safe, respectful, and high-quality care to individuals with diverse needs. 
+        Synora Staffing Solutions is a dedicated provider of healthcare professionals across the health and social care sector.
+Every member of our workforce is carefully selected, thoroughly vetted, and trained to meet regulatory and compliance standards. We ensure that our staff are not only qualified but also aligned with the values of dignity, respect, and person-centred care.
           </p>
 
           <div className="text-[19px] md:text-[20px]">

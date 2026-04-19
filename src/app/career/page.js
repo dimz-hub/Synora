@@ -98,92 +98,140 @@ const Career = () => {
           <p className="mt-4 text-[19px]">
            At Synora, we believe that great care begins with valued caregivers. We are a community of dedicated professionals committed to making a real difference in healthcare. By joining our team, you’ll gain access to a supportive environment where your compassion is celebrated, your voice is heard, and your professional growth is our priority.
           </p>
-          <p className="text-[19px] mt-4">If you would like to register with our agency, kindly fill out this short form and you will be contact to schedule a meeting.</p>
+          <p className="text-[19px] mt-[14px]">When you join Synora, you gain access to:</p>
+          <div className="text-[19px] w-[90%] mx-auto mt-[10px]">
+            <li>A supportive and responsive team</li>
+            <li>Flexible working opportunities</li>
+            <li>Competitive pay rate</li>
+            <li>Ongoing professional development</li>
+            <li>A workplace where your skills and contribution are truly valued</li>
+          </div>
+          <p className="text-[19px] mt-4">If you would like to register with Synora Staffing Solutions limited, kindly fill out this short form and you will be contacted  to schedule an onboarding  meeting.</p>
         </div>
       </div>
 
       {/* FORM */}
-      <form
-        onSubmit={handleSubmit}
-        className="max-w-3xl w-[90%] mx-auto space-y-6 mt-[40px]"
-      >
-        <div>
-          <label>Name *</label>
-          <div className="grid grid-cols-2 gap-4">
-            <input name="firstName" required placeholder="First Name" className="border p-3 rounded w-full" />
-            <input name="lastName" required placeholder="Last Name" className="border p-3 rounded w-full" />
-          </div>
-        </div>
+   <form
+  onSubmit={handleSubmit}
+  className="max-w-3xl w-[90%] mx-auto space-y-6 mt-[40px] text-gray-700"
+>
+  {/* NAME SECTION */}
+  <div>
+    <label className="font-semibold">Name *</label>
+    <div className="grid grid-cols-2 gap-4 mt-1">
+      <input name="firstName" required placeholder="First Name" className="border p-3 rounded w-full focus:outline-none" />
+      <input name="lastName" required placeholder="Last Name" className=" border p-3 rounded w-full focus:outline-none" />
+    </div>
+  </div>
 
-        <div>
-          <label>Phone *</label>
-          <input name="phone" type="tel" required className="border p-3 rounded w-full" />
-        </div>
+  {/* WORK ROLE - NEW SELECT ENTITY */}
+  <div>
+    <label className="font-semibold">Work Role Applying For? *</label>
+    <select name="workRole" required className="border p-3 rounded w-full mt-1 focus:outline-none bg-white">
+      <option value="">Select a role...</option>
+      <option value="Social Worker">Social Worker</option>
+      <option value="Registered Nurse">Registered Nurse</option>
+      <option value="Support Worker">Support Worker</option>
+      <option value="Care Assistant">Care Assistant</option>
+      <option value="Domestic Staff">Domestic Staff</option>
+      <option value="Occupational Therapist">Occupational Therapist</option>
+    </select>
+  </div>
 
-        <div>
-          <label>Email</label>
-          <input name="email" type="email" className="border p-3 rounded w-full" />
-        </div>
+  {/* CONTACT INFO */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div>
+      <label className="font-semibold">Phone *</label>
+      <input name="phone" type="tel" required className="border p-3 focus:outline-none rounded w-full mt-1" />
+    </div>
+    <div>
+      <label className="font-semibold">Email *</label>
+      <input name="email" type="email" required className="border p-3 focus:outline-none rounded w-full mt-1" />
+    </div>
+  </div>
 
-        <div>
-          <label>Location *</label>
-          <input name="location" required className="border p-3 rounded w-full" />
-        </div>
+  {/* QUALIFICATIONS SECTION - NVQ, Degree, Diploma */}
+  <div className="space-y-4 border-t pt-4">
+    <h3 className="font-bold text-[#296374]">Qualifications & Education</h3>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div>
+        <label className="text-sm">NVQs (if any)</label>
+        <input name="nvq" placeholder="e.g. Level 3" className="border p-3 focus:outline-none rounded w-full mt-1" />
+      </div>
+      <div>
+        <label className="text-sm">Degree</label>
+        <input name="degree" placeholder="e.g. BSc Nursing" className="border p-3 focus:outline-none rounded w-full mt-1" />
+      </div>
+      <div>
+        <label className="text-sm">Diploma</label>
+        <input name="diploma" placeholder="e.g. Health & Social Care" className="border p-3 focus:outline-none rounded w-full mt-1" />
+      </div>
+    </div>
+  </div>
 
-        <div>
-          <label>Work Type *</label>
-          <div className="flex gap-6">
-            <label><input type="radio" name="workType" value="Live-in" required /> Live-in</label>
-            <label><input type="radio" name="workType" value="Live-out" /> Live-out</label>
-            <label><input type="radio" name="workType" value="Either" /> Either</label>
-          </div>
-        </div>
+  {/* REGULATION & DBS */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t pt-4">
+    <div>
+      <label className="font-semibold">Regulation Body</label>
+      <input name="regulationBody" placeholder="e.g. NMC, HCPC, CQC" className="border p-3 focus:outline-none rounded w-full mt-1" />
+    </div>
+    <div>
+      <label className="font-semibold">DBS Status *</label>
+      <select name="dbs" required className="border p-3 rounded w-full mt-1 focus:outline-none bg-white">
+        <option value="">Select status...</option>
+        <option value="Enhanced - On Update Service">Enhanced - On Update Service</option>
+        <option value="Enhanced - Standard">Enhanced - Standard</option>
+        <option value="Standard">Standard</option>
+        <option value="None">None / In Progress</option>
+      </select>
+    </div>
+  </div>
 
-        <div>
-          <label>Years of Experience *</label>
-          <input name="experience" type="number" required className="border p-3 rounded w-full" />
-        </div>
+  {/* CARER PROFILE & EXPERIENCE */}
+  <div>
+    <label className="font-semibold">Carer Profile / About You *</label>
+    <textarea 
+      name="about" 
+      required 
+      placeholder="Briefly describe your care philosophy and background..."
+      className="border p-3 rounded w-full mt-1 h-32 focus:outline-none" 
+    />
+  </div>
 
-        <div>
-          <label>Certificates *</label>
-          <div className="grid grid-cols-2 gap-3">
-            {["HHA", "CNA", "PCA", "LPN", "Other"].map((cert) => (
-              <label key={cert}>
-                <input type="checkbox" name="certificates[]" value={cert} /> {cert}
-              </label>
-            ))}
-          </div>
-        </div>
+  {/* FILE UPLOADS - Work History & References */}
+  {/* <div className="bg-gray-50 p-4 rounded-lg space-y-4">
+    <div>
+      <label className="font-semibold">Work History / Experience / References *</label>
+      <p className="text-xs text-gray-500 mb-2">Please upload your CV or a document detailing your past roles and references.</p>
+      <input 
+        type="file" 
+        name="workHistoryFile" 
+        accept=".pdf,.doc,.docx" 
+        required 
+        className="block w-full text-sm focus:outline-none text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#629FAD]/10 file:text-[#296374] hover:file:bg-[#629FAD]/20"
+      />
+    </div>
+  </div> */}
 
-        <div>
-          <label>Driver’s License *</label>
-          <div className="flex flex-col gap-2">
-            <label><input type="radio" name="driver" value="Own car" required /> Yes, own car</label>
-            <label><input type="radio" name="driver" value="No car" /> Yes, no car</label>
-            <label><input type="radio" name="driver" value="No" /> No</label>
-          </div>
-        </div>
+  {/* PREVIOUS RADIOS (Location, Experience, etc.) */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6  pt-4">
+    <div>
+      <label className="font-semibold">Location *</label>
+      <input name="location" required className="border p-3 focus:outline-none rounded w-full mt-1" />
+    </div>
+    <div>
+      <label className="font-semibold">Years of Experience *</label>
+      <input name="experience" type="number" required className="border focus:outline-none p-3 rounded w-full mt-1" />
+    </div>
+  </div>
 
-        <div>
-          <label>Worked with agency before? *</label>
-          <div className="flex gap-6">
-            <label><input type="radio" name="agencyExperience" value="Yes" required /> Yes</label>
-            <label><input type="radio" name="agencyExperience" value="No" /> No</label>
-          </div>
-        </div>
-
-        <div>
-          <label>About You *</label>
-          <textarea name="about" required className="border p-3 rounded w-full" />
-        </div>
-
-        <button
-          type="submit"
-          className="bg-[#629FAD] cursor-pointer text-white px-6 py-3 rounded font-semibold hover:opacity-90 transition"
-        >
-          Submit Application
-        </button>
-      </form>
+  <button
+    type="submit"
+    className="w-full md:w-auto bg-[#629FAD] cursor-pointer text-white px-10 py-4 rounded-lg font-bold hover:bg-[#296374] transition-all shadow-md"
+  >
+    Submit Application
+  </button>
+</form>
     </div>
   );
 };

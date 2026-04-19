@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
         
         {children}
         </PageTransition>
-        <ChatWidget />
+        <ChatWidget className= 'shadow-lg' />
       </body>
     </html>
   );

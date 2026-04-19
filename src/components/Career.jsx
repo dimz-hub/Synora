@@ -22,9 +22,9 @@ pb-[40px]
 
 <p className='border-2 uppercase  text-white border-white inline px-[10px] py-[7px]'>  Careers</p>
 </div>
-<h3 className='text-white mb-[20px] text-[32px] mt-[25px] font-semibold antialiased'>Great Care Needs <br /> Great Personnel</h3>
+<h3 className='text-white mb-[20px] text-[32px] mt-[25px] font-semibold antialiased'>Join Synora Staffing <br className='md:h'/> Solutions limited</h3>
 <p className='text-white text-[20px] mb-[20px]'>
-   At Synora, we believe that exceptional care starts with exceptional people. We don't just fill shifts, we build careers. By joining our team, you become part of a network of dedicated professionals providing vital support to hospitals, care homes, and private clients across the UK. Whether you are an experienced nurse or a passionate support worker, we provide the platform for you to thrive, grow, and make a genuine difference in people's lives.
+   At Synora, we believe exceptional care starts with valued and supported professionals. We are building a community of dedicated healthcare workers who are committed to delivering safe, compassionate, high- quality care. By joining our team, you become part of a network of dedicated professionals providing vital support to hospitals, care homes, and private clients. 
 
 </p>
 <p className='text-white text-[20px]'>We provide both part-time and full-time vacancies across The United Kingdom </p>

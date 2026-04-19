@@ -123,7 +123,7 @@ export default function Hero() {
         </p>
 
         <p className="mt-[47px] lg:mt-[10px] lg:mb-[-10px] md:mt-[30px] text-[20px] md:text-[23px] font-bold">
-          Providing skilled and compassionate professionals to hospitals, care homes, supported living services, and private clients across the UK.
+          At Synora Staffing Solutions Limited, we deliver highly trained, fully vetted professionals who provide safe, compassionate, and high-quality care across a range of services.
         </p>
 
         {/* Scrolling roles */}
