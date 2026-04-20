@@ -53,12 +53,12 @@ const Contact = () => {
             </p>
           </div>
         )}
-        <h3 className='text-[#0E6BA8] text-[30px] text-center mb-[px] md:text-[40px] mt-[30px]'>
+        <h3 className='text-[#0E6BA8] text-[34px] text-center mb-[px] md:text-[40px] mt-[30px]'>
           Call to <span className='font-semibold'>Action!</span>
         </h3>
-        <p className='text-[23px] text-center font-extralight text-gray-600'>Need reliable staffing support?</p>
-        <p className='w-[100%] mx-auto mt-[10px] text-[20px] text-center'>
-         Get in touch today to discuss your requirements and discover how Synora Staffing Solutions can support your service. 
+        <p className='text-[24px] text-center font-extralight text-gray-600'>Need reliable staffing support?</p>
+        <p className='w-[90%] md:w-[100%] mx-auto mt-[10px] md:text-[20px] text-[18px] text-center'>
+         Get in touch today to discuss your requirements and discover how Synora <br className='md:hidden' /> Staffing Solutions can support your service. 
         </p>
 
 

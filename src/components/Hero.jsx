@@ -117,7 +117,7 @@ export default function Hero() {
         </p>
 
         {/* Headline */}
-        <p className="mt-[50px] max-w-xl text-[33px] md:text-[44px] lg:mt-[20px] font-bold">
+        <p className="mt-[24px] max-w-xl text-[33px] md:text-[44px] lg:mt-[20px] font-bold">
           Reliable Health & Social Care  <br className="hidden" />
           Staffing You Can Trust
         </p>
