@@ -15,26 +15,35 @@ const Services = () => {
   return (
     <div>
         <div>
-            <div className='w-[90%] mx-auto lg:w-[80%] mt-[65px] mb-[30px] flex flex-col lg:flex-row items-center lg:gap-[25px] gap-[0px] '>
+            <div className='w-[90%] mx-auto lg:w-[85%] mt-[65px] mb-[30px] flex flex-col lg:flex-row items-center lg:gap-[25px] gap-[0px] '>
               {/* <div className=' mt-[30px] flex-1'>
                 <Image src='/partner1.png' width={1000} height={300} alt='partner-with-us-img' className='rounded-[20px] w-[500px] lg:h-[376px] h-[260px] sm:h-[300px]' />
               </div> */}
-              <div className='flex-1'>
+              <div className='flex-1 '>
                <p className='text-[28px] mt-[-10px] lg:pt-[20px] flex-1 w-[100%] text-center mx-auto md:text-[39px] capitalize '>
-              Why Choose<span className='text-[#2E8A99] font-semibold'> Synora</span> <span className='font-semibold'>Staffing </span> <span className='font-semibold text-[#0e6ba8]'>Solutions?</span>
+              Why <span className='text-[#2E8A99] font-semibold'>Choose</span> <span className='font-semibold'> </span> <span className='font-semibold text-[#0e6ba8]'>Us</span>
              </p>
-              <ul className="list-decimal list-inside mt-[20px] flex  flex-col text-[19px] lg:text-[22px] gap-[10px]">
-            <li><span className='font-semibold text-[20px]'>Quality You Can Rely On: </span>
-We supply carefully vetted professionals who meet strict compliance, safeguarding, and training stan</li>
-            <li><span className='font-semibold text-[20px]'>Fast Response, 24/7 Availability: </span>   We understand urgent staffing needs. Our team responds quickly to ensure continuity of care. </li>
-            <li><span className='font-semibold text-[20px]'>Sector Expertise: </span> With deep knowledge of health and social care, we understand your operational and regulatory requirements.</li>
-            <li><span className='font-semibold text-[20px]'>Fully Compliant Workforce: </span> All staff undergo enhanced DBS checks, Right to Work verification, mandatory training, and reference checks.</li>
-            <li><span className='font-semibold text-[20px]'> Flexible & Tailored Solutions: </span> We adapt to your needs whether it’s last-minute cover or long-term staffing support.</li>
-            <li><span className='font-semibold text-[20px]'>Person-Centred Approach: </span> We prioritize dignity, respect, and quality care in every placement</li>
-            <li><span className='font-semibold text-[20px]'>Cost-Effective Staffing: </span> Reduce agency stress and maintain quality without overspending.</li>
-          </ul>
+               <p className='text-[20px] text-center font-extralight text-gray-600'>A Staffing Partner You Can Depend On</p>
+              <div className=" mt-[20px] flex  flex-col text-[19px] lg:text-[22px] gap-[10px] mx-auto w-[90%] md:w-[90%]">
+            <li><span className='font-semibold text-[21px]'>Quality Assured Staff: </span>All staff are fully vetted, trained, and compliant with industry regulations.</li>
+            <li><span className='font-semibold text-[21px]'>Reliability You Can Trust: </span> We provide dependable professionals who arrive ready to deliver. </li>
+            <li><span className='font-semibold text-[21px]'>Sector Expertise: </span> Deep understanding of health and social care environments.</li>
+            <li><span className='font-semibold text-[21px]'>Seamless Integration: </span>Staff who adapt quickly to your organisation’s culture and standards.</li>
+            <li><span className='font-semibold text-[21px]'> Flexible & Tailored Solutions: </span> We adapt to your needs whether it’s last-minute cover or long-term staffing support.</li>
+            <li><span className='font-semibold text-[21px]'>Responsive Service: </span> Fast turnaround when you need cover most.</li>
+            {/* <li><span className='font-semibold text-[21px]'>Cost-Effective Staffing: </span> Reduce agency stress and maintain quality without overspending.</li> */}
+          </div>
               </div>
              </div>
+          
+           <div className='w-[90%] md:-[85%] mx-auto pty-[15px]'>
+            <p className='text-[28px] mt-[-10px] lg:pt-[20px] flex-1 w-[100%] font-semibold text-center mx-auto md:text-[39px] capitalize text-[#0e6ba8] '>
+              Our Commitment
+             </p>
+             <p className='text-[20px] py-[15px]'>We are committed to supporting providers in delivering safe, effective, and compassionate care. Our focus is simple: to ensure continuity of care through reliable, high-quality staffing solutions.</p>
+
+           </div>
+
             <div className='bg-gradient-to-r pb-[80px] md:mt-[-25px]  w-full h-auto'>
              
              <h3 className='text-[36px] md:text-[44px] text-[#2E8A99] pt-[50px]  font-bold justify-center flex w-[100%]'>
@@ -52,14 +61,14 @@ We supply carefully vetted professionals who meet strict compliance, safeguardin
              <p className='text-[26px] md:text-[29px] pt-[30px] lg:pt-[80px] flex-1 w-[90%] mx-auto md:text-[39px] capitalize '>
               <span className='text-[#2E8A99]'>we</span> supply <span className='font-semibold text-[#0e6ba8]'>experienced:</span>
              </p>
-              <ul className="list-decimal list-inside mt-[20px] text-[19px] lg:text-[22px]">
+              <div className=" list-inside mt-[20px] text-[19px] lg:text-[22px]">
             <li>Registered Nurses</li>
             <li>Social Workers</li>
             <li>Support Workers</li>
             <li> Care Assistants</li>
             <li>Domestic Staff</li>
             <li>Occupational Therapists</li>
-          </ul>
+          </div>
             </div>
                             </div>
                             <div className='w-[90%] mx-auto lg:w-[80%]'>

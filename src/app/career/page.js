@@ -106,14 +106,18 @@ const Career = () => {
             <li>Ongoing professional development</li>
             <li>A workplace where your skills and contribution are truly valued</li>
           </div>
-          <p className="text-[19px] mt-4">If you would like to register with Synora Staffing Solutions limited, kindly fill out this short form and you will be contacted  to schedule an onboarding  meeting.</p>
+          
         </div>
       </div>
 
       {/* FORM */}
+      <div>
+    <h3 className="text-center mt-[30px] text-[30px] font-semibold">Ready to Get Started?</h3>
+    <p className="text-[19px] mt-4 w-[90%] md:w-[85%] mx-auto text-center mb-[30px]">If you are would like to register with Synora Staffing Solutions limited, please complete our short registration form. A member of our team will review your details and contact you to arrange an on boarding meeting. </p>
+  </div>
    <form
   onSubmit={handleSubmit}
-  className="max-w-3xl w-[90%] mx-auto space-y-6 mt-[40px] text-gray-700"
+  className="max-w-3xl w-[90%] mx-auto space-y-6 mt-[10px] text-gray-700"
 >
   {/* NAME SECTION */}
   <div>
@@ -137,6 +141,7 @@ const Career = () => {
       <option value="Occupational Therapist">Occupational Therapist</option>
     </select>
   </div>
+  
 
   {/* CONTACT INFO */}
   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

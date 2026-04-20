@@ -5,7 +5,7 @@ import CountUp from "@/components/CountUp";
 const About = () => {
   return (
     <div id="about">
-      <div className="w-[90%] mx-auto mt-[40px] pb-[100px]  ">
+      <div className="w-[90%] md:w-[85%] mx-auto mt-[40px] pb-[100px]  ">
         <div className="lg:flex  lg:justify-center items-center gap-[30px]">
 
         <div className="md:flex-1 flex items-center mx-auto md:w-[100%] sm:w-[70%]">
@@ -42,9 +42,9 @@ Every member of our workforce is carefully selected, thoroughly vetted, and trai
         </div>
             </div>
 
-  <p className="text-[19px] mt-[35px] md:text-[20px]">We understand the pressure organisations face in maintaining safe staffing levels while delivering exceptional care. That’s why we provide dependable, qualified, and experienced staff who integrate seamlessly into your service.
+  {/* <p className="text-[19px] mt-[35px] md:text-[20px]">We understand the pressure organisations face in maintaining safe staffing levels while delivering exceptional care. That’s why we provide dependable, qualified, and experienced staff who integrate seamlessly into your service.
 Our focus is simple:the right staff, at the right time, delivering the right care. 
-            </p>
+            </p> */}
         
 
         {/* Stats */} 
