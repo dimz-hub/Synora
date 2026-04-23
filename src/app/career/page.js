@@ -81,16 +81,19 @@ const Career = () => {
         Careers
       </h3>
 
-      <div className="md:flex w-[90%] mx-auto mt-[35px] gap-[20px] items-center">
+      <div className="md:grid w-[90%] md:grid-cols-10 mx-auto mt-[35px] gap-[20px] items-center">
+       <div className ="sm:flex  md:col-span-4  w-full justify-center items-center">
+
         <Image
           src="/career2.jpg"
           alt="career"
           width={1000}
           height={300}
-          className="w-[500px] md:w-[60vw] md:h-[80vh] rounded-[20px] h-[280px] object-cover"
-        />
+          className="w-[500px] md:w-[60vw] md:h-[80vh] rounded-[20px] h-[280px]  object-cover"
+          />
+          </div>
 
-        <div>
+        <div className="col-span-6">
           <p className="text-[28px] text-center md:text-[35px] mt-[20px] text-[#0e6ba8]">
             <span className="font-bold text-[#296374]">Start a Rewarding</span>{" "}
             Journey with Synora

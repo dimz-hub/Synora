@@ -53,8 +53,8 @@ const Services = () => {
 
              <div className='w-full mt-[30px] flex-1'>
 
-             <Image src='/homecare1.webp' alt='about-image' width={1000} height={300} className='w-full md:hidden h-[280px] object-cover'/>
-             <Image src='/endlife.webp' alt='about-image' width={1000} height={300} className='w-[500px] rounded-[25px] hidden md:block'/>
+             <Image src='/homecare1.webp' alt='about-image' width={1000} height={300} className='w-full sm:h-[300px] md:hidden  h-[280px] object-cover'/>
+             <Image src='/endlife.webp' alt='about-image' width={1000} height={300} className='w-[500px]  rounded-[25px] hidden md:block'/>
             </div>
             <div className='flex-1 w-[90%] mx-auto'>
 
